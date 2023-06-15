@@ -23,7 +23,7 @@ locationInput.addEventListener("keypress", (event) => {
 });
 
 function getWeather() {
-  APIKey = "YOUR_KEY";
+  APIKey = "YOUR_API_KEY";
   const city = document.querySelector("#locationInput").value;
 
   if (city === "") {
